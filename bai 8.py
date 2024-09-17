@@ -11,6 +11,7 @@ connection = mysql.connector.connect(
 )
 print("connected sucessfully to MariaDB")
 '''
+''''
 import mysql.connector
 def get_employees_by_last_name(last_name):
     sql = f"SELECT NUMBER, lastname, firstname, salary FROM employee1 WHERE lastname='{last_name}'"
@@ -22,8 +23,10 @@ def get_employees_by_last_name(last_name):
         for row in result:
             print(f"Hello! I'm {row[2]} {row[1]}. My salary is {row[3]} euros per month.")
     return
-
+'''
+import mysql.connector
 # Main program
+'''
 connection = mysql.connector.connect(
          host='localhost',
          port= 3306,
@@ -33,5 +36,15 @@ connection = mysql.connector.connect(
          autocommit=True,
          charset='utf8mb4',
          collation="utf8mb4_general_ci",)
-last_name = input("Enter last name: ")
-get_employees_by_last_name(last_name)
+def update_salary(number, new_salary):
+    sql = f"UPDATE Employee1 SET Salary={new_salary} WHERE Number={number}"
+    print(sql)
+    cursor = connection.cursor()
+    cursor.execute(sql)
+    if cursor.rowcount==1:
+        print("Salary updated")
+number = int(input("Enter number: "))
+new_salary = float(input("Enter new salary: "))
+update_salary(number, new_salary)
+
+'''''

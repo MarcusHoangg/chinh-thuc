@@ -59,9 +59,10 @@ print("the weight in modern units:", grams_left)
 '''
 #ex6
 
-
-
-
+#
+a=int(input("enter your number:"))
+result=a+a*a+a*a*a
+print(result)
 
 
 
