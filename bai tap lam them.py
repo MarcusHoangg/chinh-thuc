@@ -61,10 +61,15 @@ elif operators=="*":
     result=num1*num2
     print("the result is",result)
 '''
+'''
 temp=int(input("enter the temperature:"))
 condition = input('the weather is sunny(True/False):')
 if temp>=29 or condition==True:
     print("you can go outside")
 else:
     print("you cannot go outside")
-
+'''
+s=input("enter your name:")
+n=len(s)
+idx= n//2
+print(s[idx])
