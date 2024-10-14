@@ -69,7 +69,6 @@ if temp>=29 or condition==True:
 else:
     print("you cannot go outside")
 '''
-s=input("enter your name:")
-n=len(s)
-idx= n//2
-print(s[idx])
+
+B=int(input())
+
