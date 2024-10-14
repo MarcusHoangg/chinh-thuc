@@ -58,12 +58,12 @@ grams_left = grams - (kilograms*1000)
 print("the weight in modern units:", grams_left)
 '''
 #ex6
-
-#
-a=int(input("enter your number:"))
-result=a+a*a+a*a*a
-print(result)
-
+'''
+import random
+num1=random.randint(0,9)
+num2=random.randint(1,6)
+print(num1,num2)
+'''
 
 
 
