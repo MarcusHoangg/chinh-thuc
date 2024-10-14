@@ -35,7 +35,7 @@ print("The area of your circle is ", area)
 '''
 length = float(input("Enter your length: "))
 width = float(input("Enter your width: "))
-perimeter = (length*width)*2
+perimeter = (length+width)*2
 print("Your perimeter is ", perimeter)
 '''
 #ex4
