@@ -207,7 +207,7 @@ def check():
     return True
 import random
 
-car=[]
+    car=[]
 for i in range(10):
     maximum_speed=random.randint(100,200)
     registration_number="ABC"+str(i+1)
@@ -221,3 +221,4 @@ while True:
         break
 for i in range(10):
     print(car[i].registration_number, car[i].maximum_speed, car[i].current_speed, car[i].distance)
+
