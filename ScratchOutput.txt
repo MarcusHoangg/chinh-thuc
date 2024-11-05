@@ -1,0 +1,95 @@
+{
+    "coord": {
+        "lon": 24.9355,
+        "lat": 60.1695
+    },
+    "weather": [
+        {
+            "id": 800,
+            "main": "Clear",
+            "description": "clear sky",
+            "icon": "01n"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 5.62,
+        "feels_like": 1.95,
+        "temp_min": 4.13,
+        "temp_max": 7.09,
+        "pressure": 1018,
+        "humidity": 93,
+        "sea_level": 1018,
+        "grnd_level": 1016
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 5.36,
+        "deg": 288,
+        "gust": 6.26
+    },
+    "clouds": {
+        "all": 0
+    },
+    "dt": 1730839161,
+    "sys": {
+        "type": 2,
+        "id": 2011913,
+        "country": "FI",
+        "sunrise": 1730786046,
+        "sunset": 1730816015
+    },
+    "timezone": 7200,
+    "id": 658225,
+    "name": "Helsinki",
+    "cod": 200
+}
+
+#----------- END OF OUTPUT -----------#
+
+{
+    "coord": {
+        "lon": 24.9355,
+        "lat": 60.1695
+    },
+    "weather": [
+        {
+            "id": 800,
+            "main": "Clear",
+            "description": "clear sky",
+            "icon": "01n"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 5.57,
+        "feels_like": 1.89,
+        "temp_min": 4.13,
+        "temp_max": 7.09,
+        "pressure": 1018,
+        "humidity": 93,
+        "sea_level": 1018,
+        "grnd_level": 1016
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 5.36,
+        "deg": 288,
+        "gust": 6.26
+    },
+    "clouds": {
+        "all": 0
+    },
+    "dt": 1730839400,
+    "sys": {
+        "type": 2,
+        "id": 2011913,
+        "country": "FI",
+        "sunrise": 1730786046,
+        "sunset": 1730816015
+    },
+    "timezone": 7200,
+    "id": 658225,
+    "name": "Helsinki",
+    "cod": 200
+}
