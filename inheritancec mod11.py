@@ -122,6 +122,7 @@ pub1.print_information()
 pub2.print_information()
 '''
 #EX2
+'''
 class Car:
 
     def __init__(self,  license, max_speed):
@@ -165,4 +166,14 @@ class GasolineCar(Car) :
 Car1 = ElectricCar("ABC-15", 180, 52.5)
 Car2 = GasolineCar("ACD-123", 165, 32.3)
 
+import random as rand
+Car1.current_speed = rand.randint(100, 200)
+Car2.current_speed = rand.randint(100, 200)
+
+Car1.drive(3)
+Car2.drive(3)
+
+Car1.output_properties()
+Car2.output_properties()
+'''
 

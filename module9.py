@@ -174,7 +174,7 @@ newCar.EmergencyBrake()
 newCar.accelerate(60)
 '''
 #EX1:
-
+'''
 class Car:
     def __init__(self,registration_number, maximum_speed):
         self.registration_number=registration_number
@@ -221,4 +221,4 @@ while True:
         break
 for i in range(10):
     print(car[i].registration_number, car[i].maximum_speed, car[i].current_speed, car[i].distance)
-
+'''
